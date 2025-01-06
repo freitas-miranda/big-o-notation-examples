@@ -1,4 +1,8 @@
-// Constante O(1)
+/*
+# Constante O(1)
+É quando não há um looping no algoritmo. Ou seja, não depende do tamanho da entrada.
+*/
+
 function retonaNumero(numeros, posicao) {
   const numero = numeros[posicao];
   return numero;    
