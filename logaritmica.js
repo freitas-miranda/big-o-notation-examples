@@ -32,6 +32,7 @@ function buscaBinaria(listaOrdenada, numeroBuscado) {
   return null;
 }
 
+
 const numerosOrdenados = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
 const numeroBuscado = 1;
 const resultadoBusca = buscaBinaria(numerosOrdenados, numeroBuscado);
