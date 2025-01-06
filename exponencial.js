@@ -21,6 +21,15 @@ function fibonacci(numero) {
   return fibonacci(numero - 1) + fibonacci(numero - 2);
 }
 
-const posicao = 6;
-const resultado = fibonacci(posicao);
-console.log(`O ${posicao}º número da sequência de Fibonacci é ${resultado}`);
+
+function listaFibonacci(numero) {
+  const lista = [];
+  for (let i = 0; i < numero; i++) {
+    lista.push(fibonacci(i));
+  }
+  return lista;
+}
+
+const posicaoLista = 10;
+const resultadoLista = listaFibonacci(posicaoLista);
+console.log(`A sequência de Fibonacci até o ${posicaoLista}º número é [${resultadoLista}]`);
