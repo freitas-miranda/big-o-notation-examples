@@ -2,6 +2,7 @@
 # Linear O(n)
 A complexidade linear ocorre quando o tempo de execução de um algoritmo cresce proporcionalmente ao tamanho da entrada.
 Então quando temos uma lista com n de entrada para obter o número desejado, deverá percorrer ela por inteiro, ou seja n vezes.
+Nesse exemplo, o método somarNumerosDaLista percorre todos os elementos do array para realizar a soma deles.
 */
 
 function somarNumerosDaLista(lista) {
