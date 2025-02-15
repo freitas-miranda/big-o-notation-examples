@@ -1,6 +1,7 @@
 # Exemplos de Notação Big O
 
-Este repositório contém exemplos práticos de diferentes tipos de complexidade de algoritmos utilizando a notação Big O. Cada arquivo demonstra um tipo específico de complexidade com uma implementação em JavaScript e uma breve explicação sobre o comportamento do algoritmo.
+- Este repositório contém exemplos práticos de diferentes tipos de complexidade de algoritmos utilizando a notação Big O.
+- Cada arquivo demonstra um tipo específico de complexidade com uma implementação em JavaScript e uma breve explicação sobre o comportamento do algoritmo.
 
 ## Tipos de Complexidade
 
